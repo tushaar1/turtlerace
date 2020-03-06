@@ -5,33 +5,6 @@ import time
 window = t.Screen()
 window.title("Happy Valentines Day")
 window.bgcolor("black")
-""""
-# Sky : add a blue thing at the top
-turtle.setpos(-400, 500)
-turtle.color("blue")
-turtle.begin_fill()
-turtle.pendown()
-turtle.forward(800)
-turtle.right(90)
-turtle.forward(250)
-turtle.right(90)
-turtle.forward(800)
-turtle.right(90)
-turtle.forward(250)
-turtle.end_fill()
-
-stamp_size = 20
-square_size = 15
-finish_line = 200
-turtle.color("black")
-turtle.shape("square")
-turtle.shapesize(square_size / stamp_size)
-turtle.penup()
-
-for i in range(10):  # creates a loop for ten squares and draws them 
-    turtle.setpos(finish_line, (150 - (i * square_size * 2)))
-    turtle.stamp()
-"""
 
 x = 0
 y = 0
